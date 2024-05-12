@@ -1,0 +1,127 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Estilos del header */
+header {
+    background-color: #cccccc; /* Color de fondo gris claro */
+    padding: 20px;
+    position: relative; /* Para colocar la imagen del banner */
+}
+
+.banner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+    overflow: hidden; /* Para recortar la imagen si es necesario */
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-text {
+    margin-left: 35%; /* Dejar espacio para la imagen del banner */
+    padding: 20px;
+}
+
+.titulo-banner {
+    color: white;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+.subtitulo-banner {
+    color: white;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+.banner-text p {
+    color: white;
+}
+
+/* Estilos de la sección de productos */
+.titulo-productos {
+    text-align: center;
+    padding: 20px;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.producto img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.producto h3 {
+    margin-bottom: 5px;
+}
+
+.producto p {
+    margin-bottom: 10px;
+}
+
+.producto button {
+    background-color: #2980b9; /* Color azul */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #2980b9; /* Color azul */
+    padding: 20px;
+    text-align: center;
+}
+
+.suscripcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-suscripcion {
+    color: white;
+    margin-right: 20px;
+}
+
+.suscripcion input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    width: 250px;
+}
+
+.suscripcion button {
+    background-color: white;
+    color: #2980b9;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
