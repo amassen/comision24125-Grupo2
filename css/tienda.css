@@ -6,9 +6,9 @@ body {
 
 /* Estilos del header */
 header {
-    background-color: #cccccc; /* Color de fondo gris claro */
+    background-color: #cccccc; 
     padding: 20px;
-    position: relative; /* Para colocar la imagen del banner */
+    position: relative; 
 }
 
 .banner {
@@ -17,7 +17,7 @@ header {
     left: 0;
     width: 30%;
     height: 100%;
-    overflow: hidden; /* Para recortar la imagen si es necesario */
+    overflow: hidden; 
 }
 
 .banner img {
@@ -27,7 +27,7 @@ header {
 }
 
 .banner-text {
-    margin-left: 35%; /* Dejar espacio para la imagen del banner */
+    margin-left: 35%; 
     padding: 20px;
 }
 
@@ -84,7 +84,7 @@ header {
 }
 
 .producto button {
-    background-color: #2980b9; /* Color azul */
+    background-color: #2980b9; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -92,9 +92,9 @@ header {
     cursor: pointer;
 }
 
-/* Estilos del footer */
+
 footer {
-    background-color: #2980b9; /* Color azul */
+    background-color: #2980b9; 
     padding: 20px;
     text-align: center;
 }
