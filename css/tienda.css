@@ -4,12 +4,12 @@ body {
     margin: 0;
 }
 
-/* Estilos del header */
+/* Estilos del header 
 header {
     background-color: #cccccc; /* Color de fondo gris claro */
     padding: 20px;
     position: relative; /* Para colocar la imagen del banner */
-}
+}*/
 
 .banner {
     position: absolute;
