@@ -98,3 +98,55 @@ footer {
     border-radius: 0 5px 5px 0;
     cursor: pointer;
 }
+
+
+
+/* Estilos del menú */
+.navbar {
+    background-color: #121212 !important; /* Fondo oscuro */
+    padding: 15px 0; /* Espaciado interno */
+}
+
+.navbar-brand {
+    font-weight: 600; /* Letra más gruesa */
+    font-size: 1.2rem; /* Tamaño de letra */
+    color: #ffffff !important; 
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; /* Color de los enlaces */
+    margin-left: 30px; /* Espaciado entre elementos del menú */
+    font-weight: 500; 
+    transition: color 0.3s ease; /* Transición suave en el color */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00b0ff !important; /* Cambio de color al pasar el mouse */
+}
+
+.navbar-nav .nav-link.active { /* Estilo para el elemento activo */
+    color: #00b0ff !important;
+    font-weight: 600;
+}
+
+/* Estilos para el botón de hamburguesa */
+.navbar-toggler {
+    border: none !important; /* Elimina el borde del botón */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffffff !important; /* Color del icono de hamburguesa */
+}
+
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 991.98px) { 
+    .navbar-collapse {
+        background-color: #121212; /* Mantiene el fondo oscuro al colapsar */
+        text-align: right; /* Alinea el menú a la derecha al colapsar */
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
+        padding: 10px 0; /* Añade un espaciado superior e inferior */
+    }
+}

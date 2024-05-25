@@ -131,3 +131,33 @@ main {
 .formulario {
     background-color: white;
 }
+
+
+
+/* Estilos del menú */
+.navbar {
+    background-color: #121212 !important; /* Fondo  */
+    padding: 15px 0; /* Espaciado interno */
+}
+
+.navbar-brand {
+    font-weight: 600; /* Letra  */
+    font-size: 1.2rem; /* Tamaño de letra */
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    margin-left: 30px; /* Espaciado entre elementos del menú */
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00b0ff !important; /* Cambio de color al pasar el mouse */
+}
+
+.navbar-nav .nav-link.active { /* Estilo para el elemento activo */
+    color:  #00b0ff !important; 
+    font-weight: 600;
+}
