@@ -1,82 +1,196 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NJS</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="./img/favIcon/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="./img/favIcon/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="./img/favIcon/favicon-16x16.png">
-<link rel="manifest" href="./img/favIcon/site.webmanifest">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/6110874d52.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./css/style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JB - Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/6110874d52.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css"> 
 </head>
-
 <body>
 
-    <header>
-        <nav class="navbar navbar-dark bg-grey">
-            <form class="container-fluid justify-content-evenly ">
-                <button class="btn btn-outline-dark me-2" type="button">Inicio</button>
-                <button class="btn btn-outline-dark me-2" type="button">Integrantes</button>
-                <button class="btn btn-outline-dark me-2" type="button">Discografía</button>
-                <button class="btn btn-outline-dark me-2" type="button">
-                    <a href="./tienda.html" class="text-decoration-none text-reset">e-Shop</a> 
-                  </button>
-                <button class="btn btn-outline-dark me-2" type="button">Contacto</button>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jonas Brothers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./integrantes.html">Integrantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./discografia.html">Discografía</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./tienda.html">e-Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner-inicio">
+      <img src="img/banners/home.png" alt="Banner de la banda"> 
+    </div>
+  </header>
+
+  <main>
+    <section class="artistas py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Artistas del evento</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 mb-4"> 
+            <div class="card-artista">
+              <img src="img/integrantes/joe-jonas.webp" alt="Nombre del artista" class="img-fluid">
+              <h3 class="text-center">Joe Jonas</h3>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4">
+            <div class="card-artista">
+              <img src="img/integrantes/Kevin Jonas.jpg" alt="Nombre del artista" class="img-fluid">
+              <h3 class="text-center">Kevin Jonas</h3>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 mb-4"> 
+            <div class="card-artista">
+              <img src="img/integrantes/nick-jonas-sxsw-panel-2023-billboard-1548.webp" alt="Nombre del artista" class="img-fluid">
+              <h3 class="text-center">Nick Jonas</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="productos-destacados py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Merchandising</h2>
+        <div class="row">
+          <div class="col-sm-6 col-md-3 mb-4">
+            <div class="producto">
+              <img src="img/productos/jonas brothers-remera.jpg" alt="Nombre del producto" class="img-fluid">
+              <h3>Remera negra</h3>
+              <p>55000 $</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4"> 
+            <div class="producto">
+              <img src="img/productos/buso negro.jpg" alt="Nombre del producto" class="img-fluid">
+              <h3>Buso negro</h3>
+              <p>65000 $</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4"> 
+            <div class="producto">
+              <img src="img/productos/disco.jpg" alt="Nombre del producto" class="img-fluid">
+              <h3>Discos</h3>
+              <p>27000 $</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-3 mb-4"> 
+            <div class="producto">
+              <img src="img/productos/funda.jpg" alt="Nombre del producto" class="img-fluid">
+              <h3>Fundas </h3>
+              <p>9000 $</p>
+              <button>Comprar</button>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="./tienda.html" class="btn btn-primary">Ver más productos</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="ubicacion py-5">
+        <div class="container">
+          <h2 class="text-center mb-4">Ubicación</h2>
+          <div class="row">
+      
+            <div class="col-12 mb-4"> 
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13134.84268856444!2d-58.38292878862304!3d-34.61147702592699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccac630121623%3A0x53386f2ac88991a9!2sTeatro%20Col%C3%B3n!5e0!3m2!1ses-419!2sar!4v1716668500046!5m2!1ses-419!2sar" 
+                      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          <div class="col-md-8 mx-auto"> 
+            <form action="#" method="post">
+              <div class="mb-3">
+                <label for="nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre" required>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="mail" class="form-label">Mail</label>
+                    <input type="email" class="form-control" id="mail" name="mail" placeholder="Correo electrónico" required>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="mb-3">
+                    <label for="numero" class="form-label">Número</label>
+                    <input type="text" class="form-control" id="numero" name="numero" placeholder="Número">
+                  </div>
+                </div>
+              </div>
+              <div class="mb-3">
+                <label for="mensaje" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="mensaje" name="mensaje" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar</button>
             </form>
-        </nav>
-    </header>
-
-    <main>
-        <div>
-            <img class="logoBanda" src="./img/NJS.jpg" alt="">
+          </div>
         </div>
-    </main>
-
-     <div class="container-fluid my-5">
-
-            <footer class="bg-dark text-center text-white">
-                <!-- Grid container -->
-                <div class="container p-4 pb-0">
-
-                    <!-- Section: Social media -->
-                    <section class="mb-4">
-                        <!-- Facebook -->
-                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                            <i class="fa-brands fa-facebook"></i></i></a>
-
-                        <!-- Instagram -->
-                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                            <i class="fa-brands fa-instagram"></i></a>
-
-                        <!-- YouTube -->
-                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                            <i class="fa-brands fa-youtube"></i></a>
-
-                        <!-- Spotify -->
-                        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
-                            <i class="fa-brands fa-spotify"></i></a>
-                    </section>
-
-                </div>
-
-
-                <!-- Copyright -->
-                <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-                    © 2024 Copyright:
-                    <p class="text-white">Comisión 24125 - Grupo2</p>
-                </div>
-                <!-- Copyright -->
-            </footer>
-
+      </div>
+    </section>
+    <div class="footer-azul"> 
+        <div class="container py-3"> 
+          <div class="row">
+            <div class="col-md-8">
+                <p class="text-white m-0">Register Now So You Don't Miss Our Programs</p>
+            </div>
+            <div class="col-md-4 text-end"> 
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Enter your Email" aria-label="Email">
+                    <button class="btn btn-light" type="submit">Subscribe Now</button>
+                </form>
+            </div>
+          </div>
         </div>
-   
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      </div>
+  </main>
+    <div class="container-fluid mt-5">
+        <footer class="bg-dark text-center text-white">
+            <div class="container p-4 pb-0">
+                <section class="mb-4">
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-facebook"></i></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-instagram"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+                        <i class="fa-brands fa-spotify"></i></a>
+                </section>
+            </div>
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2024 Copyright:
+                <p class="text-white">Comisión 24125 - Grupo2</p>
+            </div>
+        </footer>
+    </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
-
 </html>

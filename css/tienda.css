@@ -4,11 +4,6 @@ body {
     margin: 0;
 }
 
-/* Estilos del header */
-header {
-    background-color: #747474; 
-    padding: 20px; 
-}
 
 .banner {
     width: 100%; 
@@ -17,8 +12,8 @@ header {
 
 .banner img {
     width: 100%;
-    height: auto; /* La altura se ajusta automáticamente */
-    display: block; /* Evita espacio extra debajo de la imagen */
+    height: auto; 
+    display: block; 
 }
 
 /* Estilos de la sección de productos */
@@ -39,7 +34,7 @@ header {
     padding: 15px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
 }
 
 .producto img {
@@ -101,52 +96,53 @@ footer {
 
 
 
+
 /* Estilos del menú */
 .navbar {
-    background-color: #121212 !important; /* Fondo oscuro */
-    padding: 15px 0; /* Espaciado interno */
+    background-color: #121212 !important; 
+    padding: 15px 0; 
 }
 
 .navbar-brand {
-    font-weight: 600; /* Letra más gruesa */
-    font-size: 1.2rem; /* Tamaño de letra */
+    font-weight: 600; 
+    font-size: 1.2rem; 
     color: #ffffff !important; 
 }
 
 .navbar-nav .nav-link {
-    color: #ffffff !important; /* Color de los enlaces */
-    margin-left: 30px; /* Espaciado entre elementos del menú */
+    color: #ffffff !important; 
+    margin-left: 30px; 
     font-weight: 500; 
-    transition: color 0.3s ease; /* Transición suave en el color */
+    transition: color 0.3s ease; 
 }
 
 .navbar-nav .nav-link:hover {
-    color: #00b0ff !important; /* Cambio de color al pasar el mouse */
+    color: #00b0ff !important; 
 }
 
-.navbar-nav .nav-link.active { /* Estilo para el elemento activo */
+.navbar-nav .nav-link.active { 
     color: #00b0ff !important;
     font-weight: 600;
 }
 
 /* Estilos para el botón de hamburguesa */
 .navbar-toggler {
-    border: none !important; /* Elimina el borde del botón */
+    border: none !important; 
 }
 
 .navbar-toggler-icon {
-    background-color: #ffffff !important; /* Color del icono de hamburguesa */
+    background-color: #1b2022 !important; 
 }
 
 /* Ajustes para pantallas pequeñas */
 @media (max-width: 991.98px) { 
     .navbar-collapse {
-        background-color: #121212; /* Mantiene el fondo oscuro al colapsar */
-        text-align: right; /* Alinea el menú a la derecha al colapsar */
+        background-color: #121212; 
+        text-align: right; 
     }
 
     .navbar-nav .nav-link {
-        margin-left: 0; /* Elimina el margen izquierdo en pantallas pequeñas */
-        padding: 10px 0; /* Añade un espaciado superior e inferior */
+        margin-left: 0; 
+        padding: 10px 0; 
     }
 }

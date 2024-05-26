@@ -5,25 +5,19 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Estilos del header */
-header {
-    background-color: #cccccc;
-    padding: 20px;
-    /* Elimina position: relative y overflow: hidden */
-}
+
 
 .banner {
-    width: 100%; /* El banner ocupa todo el ancho */
-    overflow: hidden; /* Esconde el contenido que sobrepase */
+    width: 100%; 
+    overflow: hidden; 
 }
 
 .banner img {
     width: 100%;
-    height: auto; /* La altura se ajusta automáticamente */
-    display: block; /* Evita espacio extra debajo de la imagen */
+    height: auto; 
+    display: block; 
 }
 
-/* Estilos de la sección de contacto */
 .contacto {
     display: flex;
     justify-content: space-between;
@@ -118,12 +112,11 @@ header {
     background-color: #555;
 }
 
-/* Estilos para el main */
+
 main {
     background-color: #cccccc;
 }
 
-/* Estilos adicionales */
 .titulo-seccion {
     color: #2980b9;
 }
@@ -136,28 +129,28 @@ main {
 
 /* Estilos del menú */
 .navbar {
-    background-color: #121212 !important; /* Fondo  */
-    padding: 15px 0; /* Espaciado interno */
+    background-color: #121212 !important; 
+    padding: 15px 0; 
 }
 
 .navbar-brand {
-    font-weight: 600; /* Letra  */
-    font-size: 1.2rem; /* Tamaño de letra */
+    font-weight: 600; 
+    font-size: 1.2rem; 
     color: #ffffff !important;
 }
 
 .navbar-nav .nav-link {
     color: #ffffff !important;
-    margin-left: 30px; /* Espaciado entre elementos del menú */
+    margin-left: 30px; 
     font-weight: 500;
     transition: color 0.3s ease; 
 }
 
 .navbar-nav .nav-link:hover {
-    color: #00b0ff !important; /* Cambio de color al pasar el mouse */
+    color: #00b0ff !important; 
 }
 
-.navbar-nav .nav-link.active { /* Estilo para el elemento activo */
+.navbar-nav .nav-link.active { 
     color:  #00b0ff !important; 
     font-weight: 600;
 }

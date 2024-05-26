@@ -1,0 +1,160 @@
+/* Estilos generales */
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.banner {
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.discografia-content {
+    background-color: #1c1c1e;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.titulo-discografia {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.disco {
+    background-color: #ffffff;
+    border-radius: 10px;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 2rem;
+    min-height: 315px;  
+    max-height: 315px; 
+}
+
+.disco::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px dashed white;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.disco-video {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.disco-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.nombre-disco {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #282c34;
+}
+
+.titulo-disco {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #282c34;
+}
+
+.info-disco-derecha { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.video-disco-izquierda {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Estilos del menú */
+.navbar {
+    background-color: #121212 !important; 
+    padding: 15px 0; 
+}
+
+.navbar-brand {
+    font-weight: 600; 
+    font-size: 1.2rem; 
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important; 
+    margin-left: 30px; 
+    font-weight: 500;
+    transition: color 0.3s ease; 
+}
+
+.navbar-nav .nav-link:hover {
+    color: #00b0ff !important; 
+}
+
+.navbar-nav .nav-link.active { 
+    color: #00b0ff !important;
+    font-weight: 600;
+}
+
+
+.navbar-toggler {
+    border: none !important; 
+}
+
+.navbar-toggler-icon {
+    background-color: #1b2022 !important;
+}
+
+
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+        background-color: #121212; 
+        text-align: right;
+    }
+
+    .navbar-nav .nav-link {
+        margin-left: 0; 
+        padding: 10px 0; 
+    }
+
+    .disco {
+        margin-bottom: 20px;
+        min-height: 0;  
+        max-height: none; 
+    }
+
+    .info-disco-derecha, 
+    .video-disco-izquierda {
+        order: 0 !important; 
+        margin-bottom: 2rem;   
+    }
+}
